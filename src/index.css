@@ -1,0 +1,72 @@
+.navbar {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 900px;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #382d30;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar Link {
+  margin-left: 30px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+.navbar Link:hover {
+  color: #ad2173;
+}
+
+
+
+.user-detail {
+  margin: 20px;
+}
+
+.user-detail h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+.user-detail .post {
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.user-detail .post h5 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.user-detail .post p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+/* UserList.css */
+
+.user-card {
+  width: 300px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
